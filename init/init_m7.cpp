@@ -67,7 +67,7 @@ void property_override_triple(char const product_prop[], char const system_prop[
 
 void common_properties()
 {
-    property_override("rild.libargs", "-d /dev/smd0");
+    property_override("vendor.rild.libargs", "-d /dev/smd0");
     property_override("rild.libpath", "/system/lib/libril-qc-qmi-1.so");
     property_override("vendor.rild.libpath", "/system/lib/libril-qc-qmi-1.so");
 }
